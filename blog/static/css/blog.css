@@ -7,8 +7,8 @@ body{
   padding: 0;
 }
 #header{
-	background-color: #aaeeff;
-	padding: 10px 5px;
+	background-color: #66ddff;
+	padding: 10px 20px;
 	margin: 0;
 }
 
@@ -17,4 +17,22 @@ body{
 	font-family:'Lobster',Arial;
 	text-decoration: none;
 	color: #ffffff;
+}
+section{
+	padding: 10px 20px;
+}
+h2{
+	margin-bottom: 0;
+}
+h2 a{
+	font-size: 120%;
+	font-family:'Lobster',Arial;
+	text-decoration: none;
+	color: #66ccff;
+}
+p.datePublished{
+	margin: 0;
+	color: #cccccc;
+	font-style: italic;
+
 }
