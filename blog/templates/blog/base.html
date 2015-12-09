@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Django Girls blog mede by aklekotka</title>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    </head>
+  <body>
+    <header>
+        <div id="header">
+            <h1><a href="">Django Girls Blog by aklekotka</a></h1>
+        </div>
+    </header>
+            {% block content %}
+            {% endblock %}
+  </body>
+</html>
