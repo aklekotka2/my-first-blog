@@ -10,6 +10,7 @@
         <div id="header">
             <h1><a href="">Django Girls Blog by aklekotka</a></h1>
         </div>
+        <a href="{% url 'blog.views.post_new' %}" class="top-menu">Dodaj wpis</a>
     </header>
             {% block content %}
             {% endblock %}

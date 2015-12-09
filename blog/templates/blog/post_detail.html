@@ -5,9 +5,11 @@
 <section>
     {% if post.published_date %}
         <div class="datePublished">
+
             {{ post.published_date }}
         </div>
     {% endif %}
+    <a  href="{% url 'post_edit' pk=post.pk %}">Edytuj</a>
     <h1>{{ post.title }}</h1>
     <p>{{ post.text|linebreaks }}</p>
 </section>
